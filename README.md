@@ -21,5 +21,5 @@ The aim is to simulate a real-world **Data Engineering workflow** and practice:
 
 ## ⚙️ Architecture
 
-![Data Architecture](diagram/architecture.png)
+![Data Architecture](diagram/architecture.png.png)
 
