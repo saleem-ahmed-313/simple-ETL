@@ -20,19 +20,6 @@ The aim is to simulate a real-world **Data Engineering workflow** and practice:
 ---
 
 ## ⚙️ Architecture
-```plaintext
-           +-----------------+
-           |  CoinGecko API  |
-           +--------+--------+
-                    |
-                    ▼
-             [Extract.py]
-                    |
-                    ▼
-             [Transform.py]
-                    |
-                    ▼
-               [Load.py]
-                    |
-                    ▼
-          PostgreSQL (crypto_simple table)
+
+![Data Architecture](diagrams/architecture.png)
+
