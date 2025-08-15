@@ -1,0 +1,54 @@
+2025-08-15 11:42:51,479 [INFO] ETL Job Started
+2025-08-15 11:42:51,479 [INFO] Starting data extraction from API
+2025-08-15 11:42:52,683 [INFO] Data extraction successful
+2025-08-15 11:42:52,684 [INFO] Starting transformation
+2025-08-15 11:42:52,714 [INFO] Transformation successful
+2025-08-15 11:42:52,714 [INFO] Starting load to Postgres
+2025-08-15 11:42:53,144 [ERROR] Error loading data: (psycopg2.errors.InsufficientPrivilege) permission denied for schema public
+LINE 2: CREATE TABLE crypto_simple (
+                     ^
+
+[SQL: 
+CREATE TABLE crypto_simple (
+	id TEXT, 
+	symbol TEXT, 
+	name TEXT, 
+	current_price FLOAT(53), 
+	market_cap BIGINT, 
+	market_cap_millions FLOAT(53)
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-08-15 11:42:53,144 [INFO] ETL Job Finished
+2025-08-15 11:49:02,433 [INFO] ETL Job Started
+2025-08-15 11:49:02,433 [INFO] Starting data extraction from API
+2025-08-15 11:49:03,443 [INFO] Data extraction successful
+2025-08-15 11:49:03,444 [INFO] Starting transformation
+2025-08-15 11:49:03,450 [INFO] Transformation successful
+2025-08-15 11:49:03,450 [INFO] Starting load to Postgres
+2025-08-15 11:49:03,673 [ERROR] Error loading data: (psycopg2.errors.InsufficientPrivilege) permission denied for schema public
+LINE 2: CREATE TABLE crypto_simple (
+                     ^
+
+[SQL: 
+CREATE TABLE crypto_simple (
+	id TEXT, 
+	symbol TEXT, 
+	name TEXT, 
+	current_price FLOAT(53), 
+	market_cap BIGINT, 
+	market_cap_millions FLOAT(53)
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-08-15 11:49:03,673 [INFO] ETL Job Finished
+2025-08-15 12:09:30,760 [INFO] ETL Job Started
+2025-08-15 12:09:30,762 [INFO] Starting data extraction from API
+2025-08-15 12:09:31,452 [INFO] Data extraction successful
+2025-08-15 12:09:31,454 [INFO] Starting transformation
+2025-08-15 12:09:31,473 [INFO] Transformation successful
+2025-08-15 12:09:31,473 [INFO] Starting load to Postgres
+2025-08-15 12:09:31,911 [INFO] Data loaded successfully into table 'crypto_simple'
+2025-08-15 12:09:31,911 [INFO] ETL Job Finished
